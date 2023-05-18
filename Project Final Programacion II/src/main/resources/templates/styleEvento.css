@@ -1,0 +1,66 @@
+body {
+    background-image: url(Musicales2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Montserrat , sans-serif;
+}
+
+/*Recuadro info*/
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #839192;
+    padding: 20px;
+    border-radius: 5px;
+    opacity: 80% ;
+
+}
+
+/*Centrado De Titulo*/
+.container h2 {
+    text-align: center;
+}
+.container h3 {
+    text-align: center;
+
+    color: #212121;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+/*Estilo Titulo Formulario*/
+.form-group label {
+    display: block;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 5px;
+
+}
+
+.form-group input,
+.form-group select {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+
+}
+
+.form-group input[type="submit"] {
+    background-color: #212121;
+    color: white;
+    cursor: pointer;
+    font-family: Montserrat, sans-serif;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #6e6e6e;
+    color: #212121;
+}
+
+.container a{
+    color: #212121;
+}
