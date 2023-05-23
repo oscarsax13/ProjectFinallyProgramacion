@@ -21,14 +21,14 @@ public class MusicoControler {
     public String listar(Model model){
         List<Musico> musico= service.listar();
         model.addAttribute("personas", musico);
-        return "index";
+        return "eventosTable";
     }
 
     //GUARDAR
     @PostMapping("/save")
     public String save(@Validated Musico p) {
         service.save(p);
-        return "redirect:/listar";
+        return "eventoOrquesta";
     }
 
     //EDITAR
@@ -36,7 +36,7 @@ public class MusicoControler {
     public String editar(@PathVariable int id, Model model) {
         Optional<Musico> musico = service.listarId(id);
         model.addAttribute("persona", musico);
-        return "form";
+        return "eventoOrquesta";
 //  Posdata: FALTA ELIMINAR
 
     }

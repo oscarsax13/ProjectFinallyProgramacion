@@ -2,7 +2,6 @@ package com.example.CrudSpringBoot.service;
 
 import com.example.CrudSpringBoot.interfaceService.IEventoService;
 import com.example.CrudSpringBoot.modelo.Evento;
-import com.example.CrudSpringBoot.modelo.Musico;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;
@@ -31,10 +30,6 @@ public  class EventoService implements IEventoService {
         return 0;
     }
 
-    @Override
-    public int save(Musico p) {
-        return 0;
-    }
 
     @Override
     public void delete(int id) {

@@ -1,8 +1,6 @@
 package com.example.CrudSpringBoot.interfaceService;
 
 import com.example.CrudSpringBoot.modelo.Evento;
-import com.example.CrudSpringBoot.modelo.Musico;
-import com.example.CrudSpringBoot.modelo.Persona;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.List;
@@ -14,7 +12,6 @@ public interface IEventoService {
     public Optional<Evento> listarId(int id);
     public int save (Evento p);
 
-    int save(Musico p);
 
     public void delete(int id);
 
